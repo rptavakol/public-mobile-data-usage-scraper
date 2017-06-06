@@ -4,7 +4,7 @@ import urllib2                                  # to open urls
 from datetime import date               # to get the current time and date
 import datetime
 import pymysql.cursors                      # to save scraped data into MySQL
-import smtplib                                      # to send emails to yourself incase of errors
+import smtplib                                      # to send emails to yourself in case of errors
 
 def getDateTime():
 # Gets current date and time    
